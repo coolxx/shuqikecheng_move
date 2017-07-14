@@ -50,13 +50,8 @@ header p{
 .banner img:nth-child(1){
 	top: 1.0rem;
 	left: 1.5rem;
-	width: 15.15rem
-}
-.duang1{
-	animation: duang 1s ease-in-out forwards;
-}
-.duang3{
-	animation: duang3 1.5s ease-in-out forwards;
+	width: 15.15rem;
+	animation: duang2 1s ease-in-out forwards;
 }
 @keyframes duang2{
   0% {transform: scale3d(1,1,1);}
@@ -65,28 +60,13 @@ header p{
   40%,60%,80% {transform: scale3d(1.05,1.05,1.05) rotate3d(0,0,1,-3deg);}
   100% {transform: scale3d(1,1,1);}
 }
-@keyframes duang3{
-  0%{
-    opacity: 0;
-    transform: translateX(25.0rem);
-  }
-  75% {
-    opacity: 1;
-    transform: translateX(0) skewX(-20deg);
-  }
-  100%{transform:skewX(0deg);}
-}
 .banner img:nth-child(2){
 	top: 9.8rem;
 	left: 0.25rem;
-	width: 17.425rem
+	width: 17.425rem;
+	animation: duang 1s ease-in-out forwards;
 }
-.duang2{
-	animation: duang2 1s ease-in-out forwards;
-}
-.duang4{
-	animation: duang2 1.5s ease-in-out forwards;
-}
+
 @keyframes duang{
   0%{
     opacity: 0;

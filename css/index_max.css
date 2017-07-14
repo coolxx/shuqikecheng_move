@@ -115,7 +115,6 @@ header p{
 	overflow: hidden;
 	background: url(../image/youhui_cc.png) no-repeat center;
 	margin-top: 32px;
-	opacity: 0;
 }
 .youhui_cc div{
 	float: left;
@@ -146,8 +145,8 @@ header p{
 .youhui > p{
 	font-size: 24px;
 	text-align: center;
-	padding-top: 13px;
-	height: 50px;
+	padding-top: 10px;
+	height: 53px;
 	background: url(../image/youhui_t.png) no-repeat center;
 	color: #fff;
 	margin-top: 21px
@@ -213,6 +212,9 @@ header p{
 	text-align: center;
 	line-height: 45px;
 }
+.m_cc .cc p .yj{
+	font-size: 20px
+}
 .m_cc .cc a{
 	font-size: 22px;
 	color: #fff;
@@ -269,12 +271,12 @@ header p{
 }
 .main5 h1{
 	width: 700px;
-	height: 91px;
+	height: 94px;
 	background: url(../image/main5_t.png) no-repeat center;
 	font-size: 36px;
 	text-align: center;
 	color: #166a9f;
-	padding-top: 13px;
+	padding-top: 10px;
 	margin-top: 50px;
 }
 .main5 h1 span{
@@ -345,4 +347,12 @@ header p{
 }
 .bdshare-button-style0-16 a, .bdshare-button-style0-16 .bds_more{
 	background-image: none!important;
+}
+.zixun{
+	position: fixed;
+	right: 2px;
+	top: 50%;
+}
+.zixun a img{
+	width: 94px;
 }

@@ -50,8 +50,13 @@ header p{
 .banner img:nth-child(1){
 	top: 1.0rem;
 	left: 1.5rem;
-	width: 15.15rem;
-	animation: duang2 1s ease-in-out forwards;
+	width: 15.15rem
+}
+.duang1{
+	animation: duang 1s ease-in-out forwards;
+}
+.duang3{
+	animation: duang3 1.5s ease-in-out forwards;
 }
 @keyframes duang2{
   0% {transform: scale3d(1,1,1);}
@@ -60,13 +65,28 @@ header p{
   40%,60%,80% {transform: scale3d(1.05,1.05,1.05) rotate3d(0,0,1,-3deg);}
   100% {transform: scale3d(1,1,1);}
 }
+@keyframes duang3{
+  0%{
+    opacity: 0;
+    transform: translateX(25.0rem);
+  }
+  75% {
+    opacity: 1;
+    transform: translateX(0) skewX(-20deg);
+  }
+  100%{transform:skewX(0deg);}
+}
 .banner img:nth-child(2){
 	top: 9.8rem;
 	left: 0.25rem;
-	width: 17.425rem;
-	animation: duang 1s ease-in-out forwards;
+	width: 17.425rem
 }
-
+.duang2{
+	animation: duang2 1s ease-in-out forwards;
+}
+.duang4{
+	animation: duang2 1.5s ease-in-out forwards;
+}
 @keyframes duang{
   0%{
     opacity: 0;
@@ -130,8 +150,8 @@ header p{
 .youhui > p{
 	font-size: 0.6rem;
 	text-align: center;
-	padding-top: 0.325rem;
-	height: 1.25rem;
+	padding-top: 0.25rem;
+	height: 1.325rem;
 	background: url(../image/youhui_t.png) no-repeat center;
 	background-size: 14.175rem 1.575rem;
 	color: #fff;
@@ -199,6 +219,9 @@ header p{
 	text-align: center;
 	line-height: 1.125rem;
 }
+.m_cc .cc p .yj{
+	font-size: 0.5rem
+}
 .m_cc .cc a{
 	font-size: 0.55rem;
 	color: #fff;
@@ -212,7 +235,7 @@ header p{
 	margin:  0.1rem auto 0;
 }
 .main > a{
-	font-size: 0.55rem;
+	font-size: 0.6rem;
 	color: #fff;
 	display: block;
 	width: 5.55rem;
@@ -263,13 +286,13 @@ header p{
 }
 .main5 h1{
 	width: 17.5rem;
-	height: 2.275rem;
+	height: 2.35rem;
 	background: url(../image/main5_t.png) no-repeat center;
 	background-size: 18.0rem 2.6rem;
 	font-size: 0.9rem;
 	text-align: center;
 	color: #166a9f;
-	padding-top: 0.325rem;
+	padding-top: 0.25rem;
 	margin-top: 1.25rem;
 }
 .main5 h1 span{
@@ -343,4 +366,12 @@ header p{
 }
 .bdshare-button-style0-16 a, .bdshare-button-style0-16 .bds_more{
 	background-image: none!important;
+}
+.zixun{
+	position: fixed;
+	right: 2px;
+	top: 40%;
+}
+.zixun a img{
+	width: 2.35rem;
 }

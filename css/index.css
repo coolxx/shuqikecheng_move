@@ -209,9 +209,11 @@ header p{
 .m_cc .cc h3{
 	font-size: 0.6rem;
 	color: #fff;
-	height: 1.35rem;
-	line-height: 1.5rem;
-	margin-left: 0.5rem;
+	height: 0.95rem;
+	padding-top: 0.4rem;
+	width: 1.375rem;
+	text-align: center;
+	line-height: 0.6rem
 }
 .m_cc .cc p{
 	font-size: 0.6rem;

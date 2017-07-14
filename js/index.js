@@ -1,7 +1,7 @@
 $(function(){
 	$('.banner img:nth-child(1)').addClass('duang1');
 	$('.banner img:nth-child(2)').addClass('duang2');
-	$(window).scroll(function(){
+	$(document).scroll(function(){
 		$youhuiH=$('.youhui').offset().top;
 		$main1H=$('.main1').offset().top;
 		$main2H=$('.main2').offset().top;
